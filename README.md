@@ -21,9 +21,6 @@
 
 ## 🏗️ System Architecture
 
-
-```
-
 ```
                               +-----------------------+
                               | Flutter Mobile Reader |
