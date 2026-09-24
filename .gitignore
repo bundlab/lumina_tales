@@ -1,0 +1,99 @@
+# ==========================================
+# Operating System Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Environment Variables & Credentials
+# ==========================================
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# ==========================================
+# Python & FastAPI Backend
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Testing & Coverage
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Generated Static Assets (Audio/Images)
+backend/static/*.png
+backend/static/*.jpg
+backend/static/audio/*.wav
+backend/static/audio/*.mp3
+!backend/static/.gitkeep
+
+# Local AI Models / Weights Cache
+.huggingface/
+models/*.bin
+models/*.safetensors
+models/*.ckpt
+
+# ==========================================
+# Flutter & Mobile Frontend
+# ==========================================
+# Flutter engine & build output
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+
+# Android specific
+frontend/android/.gradle/
+frontend/android/captures/
+frontend/android/gradlew
+frontend/android/gradlew.bat
+frontend/android/local.properties
+frontend/android/app/debug/
+frontend/android/app/profile/
+frontend/android/app/release/
+
+# iOS specific
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Flutter/app.fltf
+frontend/ios/Runner.gitignore
+frontend/ios/Runner.xcodeproj/project.xcworkspace/
+frontend/ios/Runner.xcodeproj/xcuserdata/
+frontend/Pods/
+frontend/Podfile.lock
+
+# ==========================================
+# IDE & Editor Files
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
